@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Apps/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Apps/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Apps/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake
+C:/Apps/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Apps/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Apps/CMake/share/cmake-3.31/Modules/FindThreads.cmake
+C:/Users/Антон/source/repos/Fibbonacci/googletest/googlemock/CMakeLists.txt
+C:/Users/Антон/source/repos/Fibbonacci/googletest/googlemock/cmake/gmock.pc.in
+C:/Users/Антон/source/repos/Fibbonacci/googletest/googlemock/cmake/gmock_main.pc.in

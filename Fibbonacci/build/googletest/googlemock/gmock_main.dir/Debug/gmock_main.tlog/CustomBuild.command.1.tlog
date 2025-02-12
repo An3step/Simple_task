@@ -1,0 +1,10 @@
+^C:\USERS\АНТОН\SOURCE\REPOS\FIBBONACCI\GOOGLETEST\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+C:\Apps\CMake\bin\cmake.exe -SC:/Users/Антон/source/repos/Fibbonacci -BC:/Users/Антон/source/repos/Fibbonacci/build --check-stamp-file C:/Users/Антон/source/repos/Fibbonacci/build/googletest/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
