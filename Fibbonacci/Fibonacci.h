@@ -7,7 +7,7 @@
 template <typename T>
 class IFibonacciGenerator {
 public:
-    virtual T generate(int index) = 0; // Чисто виртуальный метод
+    virtual T generate(int index) = 0;
 };
 
 class Fibonacci : public IFibonacciGenerator<int> {
@@ -17,7 +17,7 @@ public:
     std::vector<int> getSequence();
 
 protected:
-    int generate(int index); // Protected метод
+    int generate(int index);
 
 private:
     int n_;
@@ -37,11 +37,10 @@ int Fibonacci::generate(int index) {
     return generate(index - 1) + generate(index - 2);
 }
 
-// Вспомогательный класс для тестирования
 class TestableFibonacci : public Fibonacci {
 public:
     TestableFibonacci(int n) : Fibonacci(n) {}
-    using Fibonacci::generate; // Делает protected метод доступным
+    using Fibonacci::generate;
 };
 
 #endif // FIBONACCI_H
